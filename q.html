@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <style>
+      
+      .weather-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.weather-icon img {
+  width: 100px;
+  height: 100px;
+}
+
+.weather-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.weather-info div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.weather-info h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  margin: 0;
+}
+
+.weather-info p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #666;
+  text-align: center;
+  margin: 0;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="weather-card">
+      <div class="weather-icon">
+        <img src="https://www.weatherbit.io/static/img/icons/c01d.png" alt="Weather Icon">
+      </div>
+      <div class="weather-info">
+        <div class="temp">
+          <h2>25&#8451;</h2>
+          <p>Temperature</p>
+        </div>
+        <div class="precipitation">
+          <h2>20%</h2>
+          <p>Precipitation</p>
+        </div>
+        <div class="humidity">
+          <h2>60%</h2>
+          <p>Humidity</p>
+        </div>
+        <div class="wind">
+          <h2>15 km/h</h2>
+          <p>Wind Speed</p>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
